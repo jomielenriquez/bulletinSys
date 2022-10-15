@@ -20,6 +20,11 @@ sudo mysql_secure_installation
 ```
 5. After setting up password just select no 'n' in everything in the setup.
 6. To access Mariadb, execute the command below.
+7. Install the MYSql connector to PHP using the command below.
+```
+sudo apt install php-mysql
+```
+
 ```
 sudo mysql -u root -p
 ```
@@ -37,8 +42,8 @@ CREATE USER '<USERNAME>'@'localhost' identified by '<PASSWORD>';
 GRANT ALL PRIVILEGES ON <DATABASE NAME>.* TO '<USERNAME>'@'localhost';
 ```
 ### :hammer_and_wrench: Database setup
-Database Name: bulletinDb
-User: admin
+Database Name: bulletinDb,
+User: admin,
 Pass: admin
 
 
