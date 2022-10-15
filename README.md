@@ -14,5 +14,31 @@ sudo apt update && sudo apt upgrade
 ```
 sudo apt install mariadb-server
 ```
+4. After installing the mariadb server. Execute the command below to setup the database.
+```
+sudo mysql_secure_installation
+```
+5. After setting up password just select no 'n' in everything in the setup.
+6. To access Mariadb, execute the command below.
+```
+sudo mysql -u root -p
+```
+### :hammer_and_wrench: Mariabd commands
+- Creating new database.
+```
+CREATE DATABASE <DATABASE NAME>
+```
+- Creating new user
+```
+CREATE USER '<USERNAME>'@'localhost' identified by '<PASSWORD>';
+```
+- Giving acces to a user
+```
+GRANT ALL PRIVILEGES ON <DATABASE NAME>.* TO '<USERNAME>'@'localhost';
+```
+
+
+
+
 
 
