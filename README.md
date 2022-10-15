@@ -20,7 +20,10 @@ sudo mysql_secure_installation
 ```
 5. After setting up password just select no 'n' in everything in the setup.
 6. To access Mariadb, execute the command below.
-7. Install the MYSql connector to PHP using the command below.
+```
+sudo mysql -u root -p
+```
+8. Install the MYSql connector to PHP using the command below.
 ```
 sudo apt install php-mysql
 ```
