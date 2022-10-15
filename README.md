@@ -10,9 +10,9 @@
 ```
 sudo apt update && sudo apt upgrade
 ```
-3. Install ubuntu GUI
+3. Install mysql server using the command below
 ```
-sudo apt install ubuntu-desktop
+sudo apt install mariadb-server
 ```
 
 
