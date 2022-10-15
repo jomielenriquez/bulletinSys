@@ -36,6 +36,12 @@ CREATE USER '<USERNAME>'@'localhost' identified by '<PASSWORD>';
 ```
 GRANT ALL PRIVILEGES ON <DATABASE NAME>.* TO '<USERNAME>'@'localhost';
 ```
+### :hammer_and_wrench: Database setup
+Database Name: bulletinDb
+User: admin
+Pass: admin
+
+
 
 
 
