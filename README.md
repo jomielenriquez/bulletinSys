@@ -24,6 +24,7 @@ sudo mysql_secure_installation
 ```
 sudo apt install php-mysql
 ```
+8. Install PHP https://pimylifeup.com/raspberry-pi-latest-php/
 
 ```
 sudo mysql -u root -p
