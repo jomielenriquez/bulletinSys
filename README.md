@@ -54,7 +54,7 @@ Other Commands
 ```
 SHOW DATABASES; --show all the database
 
-SELECT User FROM mysql.user;
+SELECT User FROM mysql.user; -- show all the user in the database.
 ```
 
 
