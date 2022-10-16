@@ -50,6 +50,13 @@ Database Name: bulletinDb,
 User: admin,
 Pass: admin
 
+Other Commands
+```
+SHOW DATABASES; --show all the database
+
+SELECT User FROM mysql.user;
+```
+
 
 
 
